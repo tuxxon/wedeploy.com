@@ -6,7 +6,7 @@ layout: "guide"
 weight: 1
 ---
 
-### Auth
+### WeDeploy Auth
 
 ###### {$page.description}
 
@@ -44,7 +44,7 @@ Check also the <a href="/tutorials/auth-android/" target="_blank">tutorial for A
 
 <aside>
 
-All WeDeploy projects use similar configuration files to prepare your projects for deployment. Learn more on our page about <strong><a href="/docs/deploy/getting-started/">Getting Started with Deploying</a></strong>.
+All WeDeploy projects use similar a [configuration file](/docs/configure/the-wedeployjson/) to prepare your projects for deployment.
 
 </aside>
 

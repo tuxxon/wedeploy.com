@@ -6,7 +6,7 @@ layout: "guide"
 weight: 1
 ---
 
-### Hosting
+### WeDeploy Hosting
 
 ###### {$page.description}
 
@@ -42,7 +42,7 @@ Want to see the process of deploying WeDeploy Hosting step by step?
 
 <aside>
 
-All WeDeploy projects use similar configuration files to prepare your projects for deployment. Learn more on our page about <strong><a href="/docs/deploy/getting-started/">Getting Started with Deploying</a></strong>.
+All WeDeploy projects use similar a [configuration file](/docs/configure/the-wedeployjson/) to prepare your projects for deployment.
 
 </aside>
 
