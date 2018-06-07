@@ -3,7 +3,7 @@ title: "Web Console Interface"
 description: "The WeDeploy web Console is a great way to manage, deploy, and configure your applications."
 headerTitle: "Configure"
 layout: "guide"
-weight: 8
+weight: 9
 ---
 
 ### {$page.title}

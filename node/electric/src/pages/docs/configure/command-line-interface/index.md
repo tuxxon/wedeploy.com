@@ -3,7 +3,7 @@ title: "Command-line Interface"
 description: "The WeDeploy Command-Line Interface is a tool for helping you to use the WeDeploy platform by providing support for things like creating, managing, and scaling applications."
 headerTitle: "Configure"
 layout: "guide"
-weight: 7
+weight: 8
 ---
 
 ### {$page.title}
