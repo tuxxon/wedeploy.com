@@ -259,7 +259,10 @@ In this scenario, this is how the services would connect to the volumes via thei
 
 In this example, the `photos` volume will be shared and both services can access the files within that volume by the declared paths. We only accept absolute paths and not relative ones. 
 
-**Note:** Once you delete your project, any files in the volumes will also be destroyed.
+**Note:** 
+
+1. Once you delete your project, any files in the volumes will also be destroyed.
+2. Volumes ids must contain only alphanumeric characters. The valid regex is **/^[a-z0-9]+$/i**.
 
 <h4 id="customDomains">customDomains</h4>
 
