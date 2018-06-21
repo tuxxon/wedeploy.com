@@ -149,3 +149,7 @@ myservice
 Under the hood, those files will be copied into the `$CATALINA_HOME/lib/ext` folder and automatically loaded on startup.
 
 </article>
+
+## What's next?
+
+Learn more about [configuring your wedeploy.json](/docs/configure/the-wedeployjson/).

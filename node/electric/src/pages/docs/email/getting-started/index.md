@@ -71,4 +71,4 @@ Check for new releases to our Email Service on our [Updates page](/updates/servi
 
 ## What's next?
 
-Now you can learn more about [sending emails to our users](/docs/email/sending-email/).
+Learn more about [sending emails to our users](/docs/email/sending-email/).

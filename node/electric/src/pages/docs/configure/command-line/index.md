@@ -1,5 +1,5 @@
 ---
-title: "Command-line Interface"
+title: "Command-line"
 description: "The WeDeploy Command-Line Interface is a tool for helping you to use the WeDeploy platform by providing support for things like creating, managing, and scaling applications."
 headerTitle: "Configure"
 layout: "guide"
@@ -236,4 +236,4 @@ we delete --url <serviceID>-<projectID>.wedeploy.io
 
 ## What's next?
 
-* Learn more about using [the WeDeploy API Client](/docs/intro/api-clients/).
+Learn more about the [Web Console](/docs/configure/web-console/).

@@ -12,7 +12,7 @@ weight: 2
 
 <aside>
 
-If you are unfamiliar with our API, please visit the [API Clients](/docs/intro/api-clients/) page first to learn how to install and configure it.
+If you are unfamiliar with our API, please visit the [WeDeploy SDK's](/docs/configure/wedeploy-sdks/) page first to learn how to install and configure it.
 
 </aside>
 

@@ -113,7 +113,7 @@ WeDeploy offers a collection of service images you can choose from.
 - [WeDeploy Auth](/docs/auth/)
 - [WeDeploy Data](/docs/data/)
 - [WeDeploy Email](/docs/email/)
-- [WeDeploy Hosting](/docs/hosting/)
+- [WeDeploy Hosting](/docs/getting-started/deploying-static-hosting/)
 
 To deploy one of the official WeDeploy images, you can declare `wedeploy/` and then the image and version you want.
 
@@ -166,7 +166,7 @@ EXPOSE 3000
 EXPOSE 4000
 ```
 
-**Note:** If you are using automatic code detection deployments and need to know what port is exposed, check the documentation: [Java](/docs/deploy/deploying-java/#3), [Node.JS](/docs/deploy/deploying-nodejs/#3), [Ruby](/docs/deploy/deploying-ruby/#3).
+**Note:** If you are using automatic code detection deployments and need to know what port is exposed, check the documentation: [Java](/docs/getting-started/deploying-java/#3), [Node.JS](/docs/getting-started/deploying-nodejs/#3), [Ruby](/docs/getting-started/deploying-ruby/#3).
 
 **Manual Configuration**
 
@@ -271,7 +271,7 @@ Each service is deployed with a unique URL (service-project.wedeploy.io), but as
 }
 ```
 
-If you want to know more about custom domains, check our [Custom Domain Documentation](/docs/intro/custom-domains/).
+If you want to know more about custom domains, check our [Custom Domain Documentation](/docs/configure/domains-and-dns/).
 
 <h4 id="healthCheck">healthCheck</h4>
 
@@ -352,3 +352,7 @@ By default, all services utilize our zero downtime deployment. However, some ser
 ```
 
 </article>
+
+## What's next?
+
+Learn more about [configuring deployments](/docs/configure/deployment/).

@@ -31,7 +31,7 @@ Now you can do that with WeDeploy! Simply declare the dependencies in your `wede
 }
 ```
 
-​**[Learn more about Dependencies!​](/docs/deploy/configuring-deployments/#dependencies)**
+​**[Learn more about Dependencies!​](/docs/configure/the-wedeployjson/#dependencies)**
 
 #### Custom Health Checks
 
@@ -48,7 +48,7 @@ We realized that some services needed more unique health checks, so we have rele
 }
 ```
 
-**[Learn more about Health Checks!​](/docs/deploy/configuring-deployments/#healthCheck)**
+**[Learn more about Health Checks!​](/docs/configure/the-wedeployjson/#healthCheck)**
 
 #### Optional Zero Downtime
 
@@ -61,6 +61,6 @@ Even though we all want zero downtime for our applications, some services, like 
 }
 ```
 
-**[Learn more about Zero Downtime!](/docs/deploy/configuring-deployments/#zeroDowntime)**
+**[Learn more about Zero Downtime!](/docs/configure/the-wedeployjson/#zeroDowntime)**
 
 </article>

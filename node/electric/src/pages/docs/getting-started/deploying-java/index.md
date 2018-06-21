@@ -72,3 +72,7 @@ When deploying Java services, we use these versions to automatically build your 
 - JDK version `8`
 
 </article>
+
+## What's next?
+
+Learn more about [deploying Liferay DXP](/docs/getting-started/deploying-liferay-dxp/).

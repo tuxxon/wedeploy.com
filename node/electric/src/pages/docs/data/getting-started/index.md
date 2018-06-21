@@ -91,4 +91,4 @@ Check for new releases to our Data Service on our [Updates page](/updates/servic
 
 ## What's next?
 
-Now you can learn more about [configuring your data service](/docs/data/configuring-data/).
+Learn more about [configuring your data service](/docs/data/configuring-data/).

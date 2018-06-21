@@ -123,3 +123,7 @@ You can tell WeDeploy to look for error files in `myerrors` by setting the envir
 Check for new releases to our Hosting Service on our [Updates page](/updates/services/hosting).
 
 </article>
+
+## What's next?
+
+Learn more about [deploying Node.js](/docs/getting-started/deploying-nodejs/).

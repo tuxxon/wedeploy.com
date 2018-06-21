@@ -97,6 +97,6 @@ We strongly encourage you to begin using the new `volumes` property because in a
 
 We are excited about these new volume features and how they can help you develop amazing applications even faster than before.
 
-**If you have any questions, check our [volume documentation](/docs/deploy/configuring-deployments/#volumes) or join our [Slack Community](https://chat.wedeploy.com).**
+**If you have any questions, check our [volume documentation](/docs/configure/the-wedeployjson/#volumes) or join our [Slack Community](https://chat.wedeploy.com).**
 
 </article>

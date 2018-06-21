@@ -16,7 +16,7 @@ Authenticating users with WeDeploy is super easy. This tutorial will walk you th
 ###### What you'll need
 
 <ul class="checklist">
-  <li><a href="https://wedeploy.com/docs/intro/using-the-command-line/" target="_blank">The WeDeploy CLI</a></li>
+  <li><a href="https://wedeploy.com/docs/configure/command-line/" target="_blank">The WeDeploy CLI</a></li>
   <li>A code editor</li>
 </ul>
 

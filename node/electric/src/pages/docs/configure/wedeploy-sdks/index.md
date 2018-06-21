@@ -61,7 +61,7 @@ All our SDKs are available as open source projects. You can check the source cod
 
 ##### Updates
 
-Check for new releases to our JavaScript SDK on our [Updates page](/updates/apis/javascript/).
+Check for new releases to our JavaScript SDK on our [Updates page](/updates/sdks/javascript/).
 
 </article>
 
@@ -124,7 +124,7 @@ All our SDKs are available as open source projects. You can check the source cod
 
 ##### Updates
 
-Check for new releases to our Swift SDK on our [Updates page](/updates/apis/swift/).
+Check for new releases to our Swift SDK on our [Updates page](/updates/sdks/swift/).
 
 </article>
 
@@ -200,10 +200,10 @@ All our SDKs are available as open source projects. You can check the source cod
 
 ##### Updates
 
-Check for new releases to our Android SDK on our [Updates page](/updates/apis/android/).
+Check for new releases to our Android SDK on our [Updates page](/updates/sdks/android/).
 
 </article>
 
 ## What's next?
 
-* Learn more about using [Custom Domains](/docs/intro/custom-domains/).
+Learn more about the [command-line](/docs/configure/command-line/).

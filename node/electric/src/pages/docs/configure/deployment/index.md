@@ -1,5 +1,5 @@
 ---
-title: "Deploying"
+title: "Deployment"
 description: "There are many ways to deploy your app based on the needs of your workflow."
 headerTitle: "Configure"
 layout: "guide"
@@ -108,3 +108,7 @@ The Deploy Button works with **[GitHub](https://github.com)**, **[GitLab](https:
 </aside>
 
 </article>
+
+## What's next?
+
+Learn more about [Health Checks](/docs/configure/health-checks/).

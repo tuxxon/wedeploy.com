@@ -19,9 +19,8 @@ Having multiple environments for your project is a powerful way to organize your
 Here are some of our favorite environments to use:
 
 * **dev**: for exploring breaking changes
-* **testing**: for your QA team to run tests
-* **staging**: for getting feedback from the team about the upcoming release
-* **prod**: for publishing the new version of your app to the world
+* **qa**: for your quality assurance team to run tests
+* **uat**: for getting feedback from others about the upcoming release
 
 Having these stages in your development process seamlessly grouped together in your app's WeDeploy project will make it easy to quickly and confidently push new changes to your users.
 
@@ -31,21 +30,21 @@ Having these stages in your development process seamlessly grouped together in y
 
 ## Creating a New Environment
 
-Each project begins with its default, or production, environment. Projects with just one environment will look and behave like your old projects.
+Each project begins with its default, or production, environment. Projects with just one environment will look and behave like a regular project.
 
 <figure>
   <img class="blog-img-shadow" src="/images/blog/post-30--1.png" alt="single environment">
 </figure>
 
-From there, you can create a new environment by duplicating that original environment. All environments will bear the ID of the original project and then append the new environment name (e.g. `project-env`).
+From there, you can create a new environment and choose to copy from an existing environment or create a clean one. All environments will bear the ID of the original project and then append the new environment name (e.g. `project-env`).
 
 <figure>
   <img class="blog-img-shadow" src="/images/blog/post-30--2.png" alt="creating environment">
 </figure>
 
-Each Environment behaves like a separate projects so you can add unique collaborators, custom domains, environment variables, and even services to each one.
+Each Environment behaves like a separate project so you can add unique collaborators, custom domains, environment variables, and even services to each one. 
 
-This means each environment can have its own configuration like datasets or user access.
+This means each environment can have its own characteristics like datasets or user access.
 
 <figure>
   <img class="blog-img-shadow" src="/images/blog/post-30--3.png" alt="creating environment">
@@ -81,7 +80,9 @@ Some WeDeploy services have pre-defined environment variables, you can learn mor
 3) Add your keys and values.
 4) Click on *"Update Environment"*.
 
-![Using the Console](/images/docs/intro/environment-variables.png)
+<figure>
+  <img class="blog-img-shadow" src="/images/docs/intro/environment-variables.png" alt="Using the Console">
+</figure>
 
 This will restart your service with the new environment variables.
 
@@ -128,3 +129,7 @@ To delete a specific environment, you can go to the _Settings_ page of that envi
 To delete all environments in a project, you need to go to the original environment of the project (the one without a `-<env>` in the ID) and delete it from the _Settings_ page. This will delete all data, access, and WeDeploy domains associated with that project and all of its environments.
 
 </article>
+
+## What's next?
+
+Learn more about [domains and DNS](/docs/configure/domains-and-dns/).

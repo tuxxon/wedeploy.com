@@ -105,4 +105,4 @@ Or you can specify a range:
 
 ## What's next?
 
-Now you can start building your Node.js based application.
+Learn more about [deploying Docker](/docs/getting-started/deploying-docker/).

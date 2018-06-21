@@ -29,7 +29,7 @@ Or you can just [download](https://curl.haxx.se/download.html) and install it on
 
 #### What does this change mean?
 
-As you may know, we currently have three official SDKs for [JavaScript](/docs/intro/api-clients/#2), [Swift (iOS)](/docs/intro/api-clients/#3), and [Java (Android)](/docs/intro/api-clients/#4). These libraries are great and will help you work with our services much more easily.
+As you may know, we currently have three official SDKs for [JavaScript](/docs/configure/wedeploy-sdks/#2), [Swift (iOS)](/docs/configure/wedeploy-sdks/#3), and [Java (Android)](/docs/configure/wedeploy-sdks/#4). These libraries are great and will help you work with our services much more easily.
 
 But what happens if you use other languages like PHP, Python, Ruby, Go, or C++? Now you can simply navigate to our documentation and view the code snippets under the cURL tab to see how to make the requests.
 

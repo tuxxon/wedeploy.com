@@ -71,3 +71,7 @@ In this example, the `photos` volume will be shared and both services can access
 Because volumes can be shared between services, the only way to fully destroy the contents of your volumes is to delete the project they belong to. This also means that deleting services that contain volumes will not remove the volume contents.
 
 </article>
+
+## What's next?
+
+Learn more about [Environments](/docs/configure/environments/).

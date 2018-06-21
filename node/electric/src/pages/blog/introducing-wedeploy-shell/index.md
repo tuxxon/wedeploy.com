@@ -58,7 +58,7 @@ You may be wondering: "how do I enable this feature on my service?" No need to w
 
 **Any changes you make to your service via the Shell are dynamic and will be overridden when you deploy or restart your service.**
 
-The only persistent portion of your services is within the volumes. If you want to make permanent changes, you can install, save, or update any files inside of a [service volume](/docs/deploy/configuring-deployments/#volumes).
+The only persistent portion of your services is within the volumes. If you want to make permanent changes, you can install, save, or update any files inside of a [service volume](/docs/configure/the-wedeployjson/#volumes).
 
 ---
 

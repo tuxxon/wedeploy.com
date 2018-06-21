@@ -54,6 +54,6 @@ One of the awesome things you can do in your `wedeploy.json` file is add environ
 }
 ```
 
-See the full list of ways you can <a href="/docs/deploy/configuring-deployments/" target="_blank">configure your deployments</a>.
+See the full list of ways you can <a href="/docs/configure/the-wedeployjson/" target="_blank">configure your deployments</a>.
 
 </aside>

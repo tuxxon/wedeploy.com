@@ -1,5 +1,5 @@
 ---
-title: "Web Console Interface"
+title: "Web Console"
 description: "The WeDeploy web Console is a great way to manage, deploy, and configure your applications."
 headerTitle: "Configure"
 layout: "guide"
@@ -77,7 +77,3 @@ Once your service is installed, we give you a specific URL for that service that
 ![URL Generated](/images/docs/intro/using-the-console--url-generated.png)
 
 </article>
-
-## What's next?
-
-* Learn more about using [the WeDeploy CLI](/docs/intro/using-the-command-line/).

@@ -105,3 +105,7 @@ When you declare a healthCheck, these are the default configurations that you ca
 ```
 
 </article>
+
+## What's next?
+
+Learn more about [persistent storage (Volumes)](/docs/configure/persistent-storage/).

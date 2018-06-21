@@ -83,7 +83,7 @@ We also moved all branches to their own repo. This improved the exposure to the 
 
 We're always looking for ways to be more accessible to any developer using any kind of programming language.
 
-As you may know, we currently have three official SDKs for [JavaScript](/docs/intro/api-clients/#2), [Swift (iOS)](/docs/intro/api-clients/#3), and [Java (Android)](/docs/intro/api-clients/#4). Those libraries are great and can help you work with our services in a much easier way, but we wanted to go back to the basics and introduce cURL docs.
+As you may know, we currently have three official SDKs for [JavaScript](/docs/configure/wedeploy-sdks/#2), [Swift (iOS)](/docs/configure/wedeploy-sdks/#3), and [Java (Android)](/docs/configure/wedeploy-sdks/#4). Those libraries are great and can help you work with our services in a much easier way, but we wanted to go back to the basics and introduce cURL docs.
 
 <figure>
   <img src="/images/blog/post-22--1.gif" alt="Shell docs" />

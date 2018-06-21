@@ -16,7 +16,7 @@ With WeDeploy, making complex search queries is easy. This tutorial will walk yo
 ###### What you'll need
 
 <ul class="checklist">
-  <li><a href="https://wedeploy.com/docs/intro/using-the-command-line/" target="_blank">The WeDeploy CLI</a></li>
+  <li><a href="https://wedeploy.com/docs/configure/command-line/" target="_blank">The WeDeploy CLI</a></li>
   <li>A code editor</li>
   <li><a href="https://curl.haxx.se/download.html" target="_blank">cURL</a></li>
 </ul>

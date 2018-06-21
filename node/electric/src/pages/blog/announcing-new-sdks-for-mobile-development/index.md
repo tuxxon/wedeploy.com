@@ -21,9 +21,9 @@ Nowadays, we live in a world full of devices. From watching movies on your Apple
 
 That's why WeDeploy was born with more than web development in mind. We understood that as more and more devices consumed API's, this would be the future of development.
 
-We didn't want to just use raw HTTP requests, so we built API Clients that could be called easily and safely. You already know about our [JavaScript client](/docs/intro/api-clients/#1), but starting today, there are two new kids on the block.
+We didn't want to just use raw HTTP requests, so we built API Clients that could be called easily and safely. You already know about our [JavaScript client](/docs/configure/wedeploy-sdks/#1), but starting today, there are two new kids on the block.
 
-**Introducing the new WeDeploy <a target="_blank" href="/docs/intro/api-clients/#2">iOS (Swift)</a> and <a target="_blank" href="/docs/intro/api-clients/#3">Android (Java)</a> SDKs.**
+**Introducing the new WeDeploy <a target="_blank" href="/docs/configure/wedeploy-sdks/#2">iOS (Swift)</a> and <a target="_blank" href="/docs/configure/wedeploy-sdks/#3">Android (Java)</a> SDKs.**
 
 With them, you will be able to build apps for the following platforms:
 

@@ -12,7 +12,7 @@ weight: 6
 
 <aside>
 
-If you are unfamiliar with our API, please visit the [API Clients](/docs/intro/api-clients/) page first to learn how to install and configure it.
+If you are unfamiliar with our API, please visit the [WeDeploy SDK's](/docs/configure/wedeploy-sdks/) page first to learn how to install and configure it.
 
 </aside>
 
@@ -106,7 +106,7 @@ After retrieving the client id and client secret you can configure them as envir
 }
 ```
 
-Or you can add those environment variables [using the Console](/docs/intro/environment-variables/#2).
+Or you can add those environment variables [using the Console](/docs/configure/environments/#3).
 
 ![Service Environment](/images/docs/auth/sign-in-with-github--project-container-environment.png)
 
@@ -114,4 +114,4 @@ Or you can add those environment variables [using the Console](/docs/intro/envir
 
 ## What's next?
 
-Learn more about using [environment variables on Auth](/docs/auth/environment-variables/).
+Learn more about using [environment variables on Auth](/docs/auth/environment-variables/#3).

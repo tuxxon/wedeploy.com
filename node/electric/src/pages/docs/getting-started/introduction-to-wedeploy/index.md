@@ -26,7 +26,7 @@ This document walks you through some easy steps to get started on the WeDeploy p
 
 ## Download the CLI
 
-Once you create your [WeDeploy Account](https://console.wedeploy.com/signup), there are two main interfaces by which you can use WeDeploy: the [web Console](https://console.wedeploy.com/) and the [CLI](/docs/configure/command-line-interface/).
+Once you create your [WeDeploy Account](https://console.wedeploy.com/signup), there are two main interfaces by which you can use WeDeploy: the [web Console](https://console.wedeploy.com/) and the [CLI](/docs/configure/command-line/).
 
 To install the CLI on a Unix-like system such as macOS or Linux, open your terminal and run:
 
@@ -42,7 +42,7 @@ If you use Windows, check the [Windows amd64 installer](https://bin.equinox.io/c
 
 Then try running `we`. You should be able to see the list of available commands.
 
-**To learn more about what else it can do, check our [CLI Docs](docs/configure/command-line-interface/)**
+**To learn more about what else it can do, check our [CLI Docs](docs/configure/command-line/)**
 
 </article>
 
@@ -65,7 +65,7 @@ First, create a directory called `my-app` with a file called `index.html` that c
 
 <aside>
 
-If you are curious about deploying other types of applications like [Node.js](/docs/getting-started/deploying-nodejs/) or [Docker](/docs/getting-started/deploying-docker/), see our [deployment section](/docs/config/deploy) for more information.
+If you are curious about deploying other types of applications like [Node.js](/docs/getting-started/deploying-nodejs/) or [Docker](/docs/getting-started/deploying-docker/), see our [deployment section](/docs/configure/deployment) for more information.
 
 </aside>
 
@@ -99,38 +99,6 @@ It will walk you through a few steps to add your domain.
 
 </article>
 
-<article id="5">
-
-## Make an API Request
-
-Your static site is up, but what's next? WeDeploy comes with a robust catalog of API Clients that allow you to make requests to the [Data](/docs/data/), [Auth](/docs/auth/), and [Email](/docs/email/) WeDeploy Services.
-
-Let's try installing the Data service and making a simple `POST` request to the database from our terminal.
-
-Go to the [Console](https://console.wedeploy.com) and select the project you created above. Click on the _Install Service_ button in the top right corner and select the WeDeploy Data service to install and name it `db`.
-
-Once the installation is complete, we can make our request. Go back to your terminal and paste this [cURL](https://curl.haxx.se/) command. Make sure to replace the `projectID` and then run the command.
-
-```curl
-curl -X "POST" "https://db-<projectID>.wedeploy.io/movies" \
-  -H 'Content-Type: application/json' \
-  -d $'{
-    "title": "Star Wars IV",
-    "year": 1977,
-    "rating": 8.7
-  }'
-```
-
-Now you go to the `db` service of your project on the WeDeploy Console and select the _database_ tab. You should be able to see the document that you stored.
-
-<figure>
-  <img class="blog-img-shadow" src="/images/docs/getting-started/post-db.png">
-</figure>
-
-**To learn more about what else you can do with the Data Service, check out the [WeDeploy SDKs](/docs/configure/wedeploy-sdks/) and [WeDeploy Data](/docs/data/) docs**
-
-</article>
-
 ## What's next?
 
-Now you can learn more about [Health Checks](/docs/configure/health-checks/).
+Learn more about our [Feature Overview](/docs/getting-started/feature-overview/).

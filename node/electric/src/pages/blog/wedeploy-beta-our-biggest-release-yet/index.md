@@ -61,7 +61,7 @@ Back on alpha you were limited by the services we provided. Now, your imaginatio
   <img src="/images/blog/post-12--docker.gif" alt="Docker">
 </figure>
 
-*Read more in the [documentation](/docs/deploy/deploying-docker/) or follow our [step-by-step tutorial](/tutorials/docker/get-started/).*
+*Read more in the [documentation](/docs/getting-started/deploying-docker/) or follow our [step-by-step tutorial](/tutorials/docker/get-started/).*
 
 ##### 5. Volume Support
 
@@ -71,7 +71,7 @@ In order to be able to persist and share data between services, we're introducin
 
 ##### 6. Instant Deployment
 
-Before, you had two ways of deploying code. You could either connect with GitHub or create a remote pointing to our Git server. We noticed that people loved the convenience of integrating with GitHub so [we're keeping that](/docs/deploy/continuous-deployment/), but when using our Git server the experience was not as fluid, especially the authentication step that occurred on every push.
+Before, you had two ways of deploying code. You could either connect with GitHub or create a remote pointing to our Git server. We noticed that people loved the convenience of integrating with GitHub so [we're keeping that](/docs/configure/deployment/), but when using our Git server the experience was not as fluid, especially the authentication step that occurred on every push.
 
 Because of that, we decided to rethink our CLI and introduce a new deploy command. Now you don't need to rely on Git for every deploy. All you need to do is type `we login` to authenticate only once and then run `we deploy` on your project folder.
 
@@ -79,7 +79,7 @@ Because of that, we decided to rethink our CLI and introduce a new deploy comman
   <img src="/images/blog/post-12--instant-deployment.gif" alt="Instant Deployment">
 </figure>
 
-*Read more on the [documentation](/docs/deploy/getting-started/).*
+*Read more on the [documentation](/docs/configure/deployment/).*
 
 ##### 7. Automatic Code Detection
 
@@ -87,7 +87,7 @@ If you used WeDeploy before, you probably remember this `container.json` file (n
 
 WeDeploy needs to know what kind of project you are deploying in order to download dependencies, compile and build it in the right way.
 
-Together with your `wedeploy.json`, we'll try to determine what language your project uses. Deploy any project using [Node.js](/docs/deploy/deploying-nodejs/), [Java](/docs/deploy/deploying-java/), [Ruby](/docs/deploy/deploying-ruby/) or a [Dockerfile](/docs/deploy/deploying-docker/) and we'll take it from there.
+Together with your `wedeploy.json`, we'll try to determine what language your project uses. Deploy any project using [Node.js](/docs/getting-started/deploying-nodejs/), [Java](/docs/getting-started/deploying-java/), [Ruby](/docs/getting-started/deploying-ruby/) or a [Dockerfile](/docs/getting-started/deploying-docker/) and we'll take it from there.
 
 ##### 8. Liferay Digital Experience Platform
 
@@ -103,7 +103,7 @@ Besides that, we're adding support for [hot deployment](https://dev.liferay.com/
 
 What about [Liferay Portal Community Edition](https://web.liferay.com/community/liferay-projects/liferay-portal/overview)? Since we have Docker support now, you can setup your own Dockerfile or grab an image from [Docker Hub](https://hub.docker.com/r/liferay/portal/) and deploy it here.
 
-*Read more in the [documentation](/docs/deploy/deploying-liferay-dxp/) or follow our [step-by-step tutorial](/tutorials/liferay-dxp/get-started/).*
+*Read more in the [documentation](/docs/getting-started/deploying-liferay-dxp/) or follow our [step-by-step tutorial](/tutorials/liferay-dxp/get-started/).*
 
 ##### 9. Zero Downtime Deployments
 
@@ -119,7 +119,7 @@ From now on, you can point your domains directly to our nameservers and we will 
 
 We provide our DNS service across 7 different countries, including Australia, Germany, France, Netherlands, Singapore, United Kingdom and the United States. Our goal is to ensure that you always have high availability and low latency, resulting in a great experience for your users and your business.
 
-*Read more in the [documentation](/docs/intro/custom-domains/#2).*
+*Read more in the [documentation](/docs/configure/domains-and-dns/#2).*
 
 ---
 
