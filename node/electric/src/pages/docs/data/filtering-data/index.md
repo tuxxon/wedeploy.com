@@ -718,7 +718,7 @@ Above we are getting all documents in the movies collection where the title cont
 
 <h5 id="wildcard">wildcard</h5>
 
-You can filter for content that matches the pattern given as parameter.
+The `wildcard` method allows you to retrieve documents based in a given pattern. It receives a `field` and a `value` as parameter. For example, suppose you want to retrieve all movies whose title contains the substring `sth`. You can do this by giving the field name and `*sth` as value. Take a look at the example shown below.
 
 ```javascript
 WeDeploy
@@ -753,7 +753,7 @@ curl -X "GET" "https://<serviceID>-<projectID>.wedeploy.io/movies" \
       ]'
 ```
 
-Above we are getting all documents in the movies collection where the title contains `sth` as substring.
+Above we are getting all documents from the movies collection where the title contains `sth` as substring. You can also define different patterns like `*sth` which means all documents whose title ends with `sth`, or `s*th` meaning all documents whose title starts with `s` and ends with `th`.
 
 </article>
 
