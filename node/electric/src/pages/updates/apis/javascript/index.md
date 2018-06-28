@@ -6,7 +6,7 @@ updates:
  -
   version: 4.5.0
   date: June 28th, 2018
-  description: Added a new method `wildcard` to Data to retrieve documents which matches with the given pattern.
+  description: Added a new method `wildcard` to Data to search raw data instead tokens.
  -
   version: 4.4.0
   date: May 25th, 2018
