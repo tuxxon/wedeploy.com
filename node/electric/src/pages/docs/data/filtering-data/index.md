@@ -718,7 +718,7 @@ Above we are getting all documents in the movies collection where the title cont
 
 <h5 id="wildcard">wildcard</h5>
 
-The `wildcard` method allows you to retrieve documents based in a given pattern. It receives a `field` and a `value` as parameter. For example, suppose you want to retrieve all movies whose title contains the substring `sth`. You can do this by giving the field name and `*sth` as value. Take a look at the example shown below.
+The `wildcard` method allows you to retrieve documents based in a given pattern. It receives a `field` and a `value` as parameter. For example, suppose you want to retrieve all movies whose title contains the substring `sth`. You can do this by giving the field name and `*sth*` as value. Take a look at the example shown below.
 
 ```javascript
 WeDeploy
