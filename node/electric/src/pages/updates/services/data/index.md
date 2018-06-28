@@ -5,6 +5,10 @@ layout: "updates"
 updates:
  -
   version: 2.7.0
+  date: June 28th, 2018
+  description: Enable wildcard method.
+ -
+  version: 2.7.0
   date: May 30th, 2018
   description: Enabled encryption for communicating with our services.
  -
