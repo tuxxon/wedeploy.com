@@ -8,6 +8,10 @@ updates:
   date: June 28th, 2018
   description: Update dependencies.
  -
+  version: 2.7.0
+  date: May 30th, 2018
+  description: Enabled encryption for communicating with our services.
+ -
   version: 2.6.0
   date: May 24th, 2018
   description: Expose fields for filtering search results.
