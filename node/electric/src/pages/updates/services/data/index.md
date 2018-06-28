@@ -4,7 +4,7 @@ description: "Check out the latest releases of the WeDeploy"
 layout: "updates"
 updates:
  -
-  version: 2.7.0
+  version: 2.8.0
   date: June 28th, 2018
   description: Enable wildcard method.
  -
