@@ -62,6 +62,7 @@ To learn more about an individual configuration, click on a key in the table bel
 | **[healthCheck](#healthCheck)**     | Object  |         | How the services' health is checked |
 | **[dependencies](#dependencies)**   | Array   |         | Deployment dependency order         |
 | **[zeroDowntime](#zeroDowntime)**   | Boolean | true    | Interruption during deployment      |
+| **[public](#public)**               | Boolean | true    | Allows a service to have public access |
 
 </div>
 
@@ -370,5 +371,16 @@ There are some applications that require a command to be started. This property 
 Note that the property `command` from `wedeploy.json` is different from the `command` used to `healthCheck`.
 
 </aside>
+
+<h4 id="public">public</h4>
+
+Sometimes you don't want your service to be accessed from outside your project. By adding `"public": false` to your `wedeploy.json` will make your service be accessed only from other services inside the same project.
+
+```application/json
+{
+  "id": "app",
+  "public": false
+}
+```
 
 </article>
