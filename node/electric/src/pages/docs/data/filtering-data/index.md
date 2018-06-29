@@ -1084,7 +1084,7 @@ curl -X "GET" "https://<serviceID>-<projectID>.wedeploy.io/movies" \
       ]'
 ```
 
-Above we are finding the average of all the movie ratings in our collection. This is the syntax of the aggregation parameters.
+Above we are finding the average of all the movie ratings in our collection. This is the syntax of the aggregation parameters. 
 
 ```javascript
 .aggregate('unique_aggregation_name', 'collection_field', 'aggregation_type')
@@ -1097,6 +1097,22 @@ Above we are finding the average of all the movie ratings in our collection. Thi
 ```
 
 You can choose to use any of these aggregations.
+
+<aside>
+
+###### <span class="icon-16-star"></span> Pro Tip
+
+By default, `.aggregate` returns an object containing the following fields: `aggregations`, `documents`, `highlights` and `scores`. In case you want to retrieve only `aggregations` field, you can limit your request to 0 adding `.limit(0)`.
+
+```javascript
+WeDeploy
+  .data('https://<serviceID>-<projectID>.wedeploy.io')
+  .aggregate('aggregation_name', 'ratings')
+  .limit(0)
+  .get('movies')
+```
+
+</aside>
 
 **Without Value Specification**
 
@@ -1205,6 +1221,7 @@ curl -X "GET" "https://<serviceID>-<projectID>.wedeploy.io/movies" \
 ```
 
 <h5 id="fields">fields</h5>
+
 Sometimes you don't need all fields from a document, in these cases you can use the `fields` method to get only the fields that you want.
 
 ```javascript
