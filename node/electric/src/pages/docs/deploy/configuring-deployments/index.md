@@ -374,7 +374,7 @@ Note that the property `command` from `wedeploy.json` is different from the `com
 
 <h4 id="public">public</h4>
 
-Sometimes you don't want your service to be accessed from outside your project. By adding `"public": false` to your `wedeploy.json` will make your service be accessed only from other services inside the same project.
+Sometimes you may not want your service to be accessible from outside of your project. By adding `"public": false` to your `wedeploy.json`, you can make your service accessible only to other services within the same project.
 
 ```application/json
 {
