@@ -55,11 +55,11 @@ To learn more about an individual configuration, click on a key in the table bel
 | **[port](#port)**                   | Number  |         | Exposed service port                |
 | **[cpu](#scale)**                   | Number  | 1       | Number of processing units          |
 | **[scale](#scale)**                 | Number  | 1       | Maximum number of instances         |
-| **[memory](#scale)**                | Number  | 512     | Amount of computing memory          |
+| **[memory](#scale)**                | Number  | 512     | Amount of computing memory in MB    |
 | **[volumes](#volumes)**             | Object  |         | Persistent database file system     |
 | **[command](#command)**             | Array   |         | Command to be performed when the container starts |
 | **[customDomains](#customDomains)** | Array   |         | Set custom domain names             |
-| **[healthCheck](#healthCheck)**     | Object  |         | How the services' health is checked |
+| **[healthCheck](#healthCheck)**     | Object  |localhost| How the services' health is checked |
 | **[dependencies](#dependencies)**   | Array   |         | Deployment dependency order         |
 | **[zeroDowntime](#zeroDowntime)**   | Boolean | true    | Interruption during deployment      |
 | **[public](#public)**               | Boolean | true    | Allows a service to have public access |
