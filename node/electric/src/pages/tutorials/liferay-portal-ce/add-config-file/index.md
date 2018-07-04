@@ -1,9 +1,9 @@
 ---
 title: "Add Config File"
-description: "In this section, you'll learn how to deploy a Liferay CE instance on WeDeploy."
+description: "In this section, you'll learn how to deploy a Liferay Portal CE instance on WeDeploy."
 buttonTitle: "I added the config files"
-tutorialTitle: "Getting started with Liferay CE"
-parentId: "liferay-ce"
+tutorialTitle: "Getting started with Liferay Portal CE"
+parentId: "liferay-portal-ce"
 layout: "tutorial"
 time: 40
 weight: 3

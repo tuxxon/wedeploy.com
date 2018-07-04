@@ -1,9 +1,9 @@
 ---
 title: "Download Sample"
-description: "In this section, you'll learn how to deploy an application using Liferay Community Edition."
+description: "In this section, you'll learn how to deploy an application using Liferay Portal CE."
 buttonTitle: "I downloaded the sample files"
-tutorialTitle: "Getting started with Liferay CE"
-parentId: "liferay-ce"
+tutorialTitle: "Getting started with Liferay Portal CE"
+parentId: "liferay-portal-ce"
 layout: "tutorial"
 time: 20
 weight: 2
@@ -11,7 +11,7 @@ weight: 2
 
 #### Download Sample
 
-First, you'll download a folder that contains the necessary files and directories for a Liferay CE project. There are basically two ways you can do this.
+First, you'll download a folder that contains the necessary files and directories for a Liferay Portal CE project. There are basically two ways you can do this.
 
 ###### A) Download a ZIP
 

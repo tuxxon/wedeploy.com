@@ -1,9 +1,9 @@
 ---
 title: "It Works"
-description: "In this section, you'll learn how to deploy an application using Liferay Community Edition."
+description: "In this section, you'll learn how to deploy an application using Liferay Portal CE."
 buttonTitle: "It works"
-tutorialTitle: "Getting started with Liferay CE"
-parentId: "liferay-ce"
+tutorialTitle: "Getting started with Liferay Portal CE"
+parentId: "liferay-portal-ce"
 layout: "tutorial"
 time: 30
 weight: 5
@@ -16,7 +16,7 @@ Great work, your project is ready to be used!
 Go to `app-<projectID>.wedeploy.io` in your browser.
 
 <figure>
-  <img src="/images/tutorials/it-works-liferay-ce.png">
+  <img src="/images/tutorials/it-works-liferay-portal-ce.png">
 </figure>
 
 Awesome! You just deployed a Liferay CE instance within a few minutes! We can't wait to see what else you create with WeDeploy!

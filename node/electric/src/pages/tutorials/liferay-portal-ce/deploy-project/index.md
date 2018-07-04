@@ -1,9 +1,9 @@
 ---
 title: "Deploy Project"
-description: "In this section, you'll learn how to deploy an application using Liferay Community Edition."
+description: "In this section, you'll learn how to deploy an application using Liferay Portal CE."
 buttonTitle: "I deployed the project"
-tutorialTitle: "Getting started with Liferay CE"
-parentId: "liferay-ce"
+tutorialTitle: "Getting started with Liferay Portal CE"
+parentId: "liferay-portal-ce"
 layout: "tutorial"
 time: 30
 weight: 4

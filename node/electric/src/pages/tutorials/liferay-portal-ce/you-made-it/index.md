@@ -1,8 +1,8 @@
 ---
 title: "You Made It!"
-description: "In this section, you'll learn how to deploy an application using Liferay Community Edition."
-tutorialTitle: "Getting started with Liferay CE"
-parentId: "liferay-ce"
+description: "In this section, you'll learn how to deploy an application using Liferay Portal CE."
+tutorialTitle: "Getting started with Liferay Portal CE"
+parentId: "liferay-portal-ce"
 layout: "tutorial"
 weight: 6
 ---
