@@ -20,6 +20,7 @@ weight: 6
     <li><a href="/tutorials/auth-web/get-started/">Auth Tutorial</a></li>
     <li><a href="/tutorials/nodejs/get-started/">Node.js Tutorial</a></li>
     <li><a href="/tutorials/elixir/get-started/">Elixir Tutorial</a></li>
+    <li><a href="/tutorials/liferay-ce/get-started/">Liferay CE Tutorial</a></li>
     <li><a href="/tutorials/liferay-dxp/get-started/">Liferay DXP Tutorial</a></li>
     <li><a href="/tutorials/ruby/get-started/">Ruby Tutorial</a></li>
   </ul>
