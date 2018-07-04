@@ -1,12 +1,12 @@
 ---
-title: "Deploying Liferay CE"
-description: "Launch a Liferay CE application in few seconds."
+title: "Deploying Liferay Portal CE"
+description: "Launch a Liferay Portal CE application in few seconds."
 headerTitle: "Deploy"
 layout: "guide"
 weight: 9
 ---
 
-### Liferay DXP Trial
+### Liferay Portal CE
 
 ###### {$page.description}
 
@@ -14,7 +14,7 @@ weight: 9
 
 ## Introduction
 
-[Liferay CE](https://community.liferay.com/-/portal) provides an architecture for companies to digitize business operations, deliver connected customer experiences, and gather actionable customer insight, with the ultimate goal of providing better customer experiences for their clients.
+[Liferay Portal CE](https://community.liferay.com/-/portal) provides an architecture for companies to digitize business operations, deliver connected customer experiences, and gather actionable customer insight, with the ultimate goal of providing better customer experiences for their clients.
 
 </article>
 
@@ -22,16 +22,16 @@ weight: 9
 
 ## Try it yourself
 
-Want to see the process of deploying Liferay CE step by step?
+Want to see the process of deploying Liferay Portal CE step by step?
 
 <div class="guide-btn-cta">
-  <a class="btn btn-accent btn-lg" href="/tutorials/liferay-ce/" target="_blank">
+  <a class="btn btn-accent btn-lg" href="/tutorials/liferay-portal-ce/" target="_blank">
     <span class="icon-16-external"></span>Try the tutorial
   </a>
 </div>
 
 <div class="guide-aux-cta">
-	or see a <a href="https://github.com/wedeploy-examples/liferay-dxp-example" target="_blank">source code example</a>.
+	or see a <a href="https://github.com/wedeploy-examples/liferay-portal-ce-example" target="_blank">source code example</a>.
 </div>
 
 </article>
@@ -46,12 +46,12 @@ All WeDeploy projects use similar configuration files to prepare your projects f
 
 </aside>
 
-Below is an example of a `wedeploy.json` for a Liferay DXP service. The `id` for your services are uniquely determined by you.
+Below is an example of a `wedeploy.json` for a Liferay Portal CE service. The `id` for your services are uniquely determined by you.
 
 ```application/json
 {
   "id": "myservice",
-  "image": "wedeploy/liferay:@site.version.image.liferay@",
+  "image": "wedeploy/liferay:@site.version.image.liferayce@",
   "volume": "/opt/liferay/data",
   "memory": 4096,
   "cpu": 3
@@ -64,7 +64,7 @@ Below is an example of a `wedeploy.json` for a Liferay DXP service. The `id` for
 
 ## Hot Deployment
 
-Liferay DXP's hot deploy mechanism allows you to install themes, portlets, OSGi modules, and even a license by simply including WAR, JAR, and XML files into a `deploy` folder.
+Liferay Portal CE's hot deploy mechanism allows you to install themes, portlets, OSGi modules, and even a license by simply including WAR, JAR, and XML files into a `deploy` folder.
 
 For example, if you wanted to deploy a custom JAR file, this is how your directory could look like:
 
@@ -76,14 +76,6 @@ myservice
 ```
 
 Under the hood, those files will be copied into the `$LIFERAY_HOME/deploy` folder and automatically deployed on startup.
-
-<aside>
-
-###### <span class="icon-16-star"></span> Pro Tip
-
-You can provide your own activation key to your Liferay DXP instance on WeDeploy. Simply put your license or activation key inside the deploy folder with the name `license.xml`. If this file exists, we will use your license instead of starting a 30-day DXP trial.
-
-</aside>
 
 </article>
 
@@ -108,11 +100,11 @@ Under the hood, those files will be copied into the `$LIFERAY_HOME/osgi/configs`
 
 <article id="6">
 
-## Liferay DXP Configuration
+## Liferay Portal CE Configuration
 
-Liferay DXP can be configured using a properties file named `portal-ext.properties` and located in portal's classpath. WeDeploy allows you to deploy a portal-ext.properties to your Liferay DXP service simply including it next to the wedeploy.json file.
+Liferay Portal CE can be configured using a properties file named `portal-ext.properties` and located in portal's classpath. WeDeploy allows you to deploy a portal-ext.properties to your Liferay Portal CE service simply including it next to the wedeploy.json file.
 
-For example, if you wanted to deploy the configuration for your Liferay DXP, this is how your directory could look like:
+For example, if you wanted to deploy the configuration for your Liferay Portal CE, this is how your directory could look like:
 
 ```xml
 myservice
@@ -126,14 +118,14 @@ Under the hood, that file will be copied into the `$LIFERAY_HOME` folder and aut
 
 ###### <span class="icon-16-star"></span> Pro Tip
 
-In order for Liferay DXP to work properly on WeDeploy, you need two properties to be set in your custom portal-ext.properties file:
+In order for Liferay Portal CE to work properly on WeDeploy, you need two properties to be set in your custom portal-ext.properties file:
 
 ```properties
 web.server.protocol=https
 redirect.url.security.mode=domain
 ```
 
-Otherwise, Liferay DXP won't calculate the URLs properly under our load balancer with HTTPS protocol enabled.
+Otherwise, Liferay Portal CE won't calculate the URLs properly under our load balancer with HTTPS protocol enabled.
 
 </aside>
 
@@ -145,7 +137,7 @@ Otherwise, Liferay DXP won't calculate the URLs properly under our load balancer
 
 Sometimes you want to make visible several Java libraries to both Tomcat internal classes and to all web applications. This is the case for JDBC drivers, and portlet or servlet API's, as example. For this reason Liferay DXP adds the `lib/ext` directory to Tomcat's **Common** classloader, and puts there several libraries for common use. WeDeploy allows you to upload your shared libraries to your Liferay DXP service simply including them into a `shared-libs` directory present next to the wedeploy.json file.
 
-For example, if you wanted to add an Oracle JDBC driver to your Liferay DXP instance, this is how your directory could look like:
+For example, if you wanted to add an Oracle JDBC driver to your Liferay Portal CE instance, this is how your directory could look like:
 
 ```xml
 myservice
@@ -160,4 +152,4 @@ Under the hood, those files will be copied into the `$CATALINA_HOME/lib/ext` fol
 
 ## What's next?
 
-Now you can start building your Liferay DXP Trial application.
+Now you can start building your Liferay Portal CE application.
