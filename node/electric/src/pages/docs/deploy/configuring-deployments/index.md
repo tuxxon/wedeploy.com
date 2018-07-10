@@ -58,6 +58,7 @@ To learn more about an individual configuration, click on a key in the table bel
 | **[memory](#scale)**                | Number  | 512     | Amount of computing memory          |
 | **[volumes](#volumes)**             | Object  |         | Persistent database file system     |
 | **[command](#command)**             | Array   |         | Command to be performed when the container starts |
+| **[projectId](#projectId)**         | String  | random  | Unique project ID                   |
 | **[customDomains](#customDomains)** | Array   |         | Set custom domain names             |
 | **[healthCheck](#healthCheck)**     | Object  |         | How the services' health is checked |
 | **[dependencies](#dependencies)**   | Array   |         | Deployment dependency order         |
@@ -260,6 +261,19 @@ In this scenario, this is how the services would connect to the volumes via thei
 In this example, the `photos` volume will be shared and both services can access the files within that volume by the declared paths. We only accept absolute paths and not relative ones. 
 
 **Note:** Once you delete your project, any files in the volumes will also be destroyed.
+
+<h4 id="projectId">projectId</h4>
+
+To create a new project, you have to choose its unique `projectId`. It can be defined on `wedeploy.json`.
+
+```application/json
+{
+  "id": "ui",
+  "projectId": "myproject"
+}
+```
+
+You can also choose your `projectId` when creating a new project by performing `we new -p myproject` from your [command line](https://wedeploy.com/docs/intro/using-the-command-line/).
 
 <h4 id="customDomains">customDomains</h4>
 
