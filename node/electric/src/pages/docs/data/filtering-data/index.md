@@ -1084,7 +1084,7 @@ curl -X "GET" "https://<serviceID>-<projectID>.wedeploy.io/movies" \
       ]'
 ```
 
-Above we are finding the average of all the movie ratings in our collection. This is the syntax of the aggregation parameters. 
+Above we are finding the average of all the movie ratings in our collection. This is the syntax of the aggregation parameters.
 
 ```javascript
 .aggregate('unique_aggregation_name', 'collection_field', 'aggregation_type')
