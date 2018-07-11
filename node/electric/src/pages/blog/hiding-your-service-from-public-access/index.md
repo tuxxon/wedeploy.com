@@ -1,6 +1,6 @@
 ---
 title: "Hiding Your Service from Public Access"
-description: "There are many situations where a service is only used inside a project. In these cases, you may not want these services to be accessible from guests. Now you can hide any service you want by adding a new field to your wedeploy.json"
+description: "There are many situations where a service is only used inside a project. In these cases, you may not want these services to be accessible by guests. Now you can hide any service you want by adding a new field to your wedeploy.json"
 date: "Jul 2, 2018"
 author: "Albertinin Mourato"
 image: "images/blog/post-5--0.png"
@@ -11,13 +11,13 @@ layout: "blog"
 
 {$page.description}
 
-### Don't expose what should not be exposed
+### Don't Expose What Should Not Be Exposed
 
-Imagine you have an application which requires a bunch of different services (database, server, etc...) to make it work. These complementary services might not be important for users or accessible for anyone. Now, you can make it unacessible by adding the new field `public` to your `wedeploy.json`.
+Imagine you have an application which requires multiple different services (database, server, etc...) to make it work. These complementary services might not be important for users or accessible for anyone. Now, you can make it unacessible by adding the new `public` field to your `wedeploy.json`.
 
-### Marking Your Service Unreachable from Public
+### Marking Your Service as Private
 
-You can easily hide your service by doing the following:
+By simply adding this new field to your wedeploy.json like you see below, we will hide your service from the public. Don't worry, your service is still accessible to other services in your project via its hostname.
 
 ```application/json
 {
