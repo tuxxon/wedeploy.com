@@ -294,6 +294,12 @@ Here is an example of the `url` approach:
 }
 ```
 
+<aside>
+
+If you do not add `healthCheck` to your `wedeploy.json`, we will use the example above as default `healthCheck` of your service.
+
+</aside>
+
 By putting `localhost` as the health check URL, we will ping the IP of your service. You could also specify a specific path like `localhost/blog/` or a certain port like `localhost:4000`.
 
 For more complex health checks, you can add commands to check the uptime of your service.
