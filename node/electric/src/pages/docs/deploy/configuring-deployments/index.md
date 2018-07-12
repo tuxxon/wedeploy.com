@@ -264,7 +264,7 @@ In this example, the `photos` volume will be shared and both services can access
 
 <h4 id="projectId">projectId</h4>
 
-To create a new project, you have to choose its unique `projectId`. It can be defined on `wedeploy.json`.
+With the aim of deploying a service to the same project without typing its Project ID every time you want to deploy it, you can add the `projectId` field to your `wedeploy.json` and just perform `we deploy`. 
 
 ```application/json
 {
@@ -273,7 +273,7 @@ To create a new project, you have to choose its unique `projectId`. It can be de
 }
 ```
 
-You can also choose your `projectId` when creating a new project by performing `we new -p myproject` from your [command line](https://wedeploy.com/docs/intro/using-the-command-line/).
+If you would rather not have a hardcoded Project ID value, you can pass the ID when you run the deploy command from the [CLI] (https://wedeploy.com/docs/intro/using-the-command-line/).
 
 <h4 id="customDomains">customDomains</h4>
 
