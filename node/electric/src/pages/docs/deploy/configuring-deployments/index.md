@@ -273,7 +273,7 @@ With the aim of deploying a service to the same project without typing its Proje
 }
 ```
 
-If you would rather not have a hardcoded Project ID value, you can pass the ID when you run the deploy command from the [CLI] (https://wedeploy.com/docs/intro/using-the-command-line/).
+If you would rather not have a hardcoded Project ID value, you can pass the ID when you run the deploy command from the [CLI](https://wedeploy.com/docs/intro/using-the-command-line/).
 
 <h4 id="customDomains">customDomains</h4>
 
