@@ -62,7 +62,7 @@ To learn more about an individual configuration, click on a key in the table bel
 | **[healthCheck](#healthCheck)**     | Object  |localhost| How the services' health is checked |
 | **[dependencies](#dependencies)**   | Array   |         | Deployment dependency order         |
 | **[zeroDowntime](#zeroDowntime)**   | Boolean | true    | Interruption during deployment      |
-| **[public](#public)**               | Boolean | true    | Allows a service to have public access |
+| **[public](#public)**               | Boolean | true    | Controls public access              |
 
 </div>
 
