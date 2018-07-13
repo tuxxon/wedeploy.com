@@ -13,11 +13,11 @@ layout: "blog"
 
 ### Don't Expose What Should Not Be Exposed
 
-Imagine you have an application which requires multiple different services (database, server, etc...) to make it work. You may want to provide more security and protection to these complementary services or simply hide them from public access because they might not important for users. Now, you are able to choose if you want your service to be public or private by adding the new `public` field to your `wedeploy.json`.
+Imagine you have an application which requires multiple different services (database, server, etc...) to make it work. You may want to provide more security and protection to these complementary services or simply hide them from public access. Now, you are able to choose if you want your service to be public or private by adding the new `public` field to your `wedeploy.json`.
 
 ### Marking Your Service as Private
 
-By setting this field to false in your wedeploy.json like you see below, we will hide your service from the public. Don't worry, your service is still accessible to other services in your project via its hostname.
+By setting this field to false in your `wedeploy.json` like you see below, we will hide your service from the public. Don't worry, your service is still accessible to other services in your project via its hostname.
 
 ```application/json
 {
