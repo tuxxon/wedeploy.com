@@ -184,7 +184,7 @@ we env --url <serviceID>-<projectID>.wedeploy.io
 
 ## List projects or services
 
-See the full list of projects and services you own or collaborator with:
+See the full list of projects and services you own or project team members with:
 
 ```xml
 we list
