@@ -234,6 +234,42 @@ we delete --url <serviceID>-<projectID>.wedeploy.io
 
 </article>
 
+<article id="9">
+
+## Execute commands into a service's container
+
+You can run a command in a specific instance of your service:
+
+```xml
+we exec --project <projectID> --service <serviceID> --instance <abc123> -- mkdir foo
+```
+
+Or you can run the command in any instance of your service:
+
+```xml
+we delete --project <projectID> --service <serviceID> --instance any -- mkdir foo
+```
+
+</article>
+
+<article id="10">
+
+## Access Shell of a Service's Container
+
+You can access the shell of a service's container by running the command below. It will list all your services for you to choose which one you want to access.
+
+```xml
+we shell
+```
+
+Or you can access the shell of a specific service's container by adding its `projectId` and `serviceId`.
+
+```xml
+we shell -p <projectID> -s <projectID>
+```
+
+</article>
+
 ## What's next?
 
 * Learn more about using [the WeDeploy API Client](/docs/intro/api-clients/).
