@@ -220,7 +220,7 @@ The available resources for these variables are dependent upon the usage limits 
 
 <h4 id="volumes">volumes</h4>
 
-For many applications, it is necessary to be able to write and access a persistent file system so that your important files can keep their state even after re-deployment or restarting your service. We make this possible with `volumes`. 
+For many applications, it is necessary to be able to write and access a persistent file system so that your important files can keep their state even after re-deployment or restarting your service. We make this possible with `volumes`.
 
 ```application/json
 {
@@ -258,7 +258,7 @@ In this scenario, this is how the services would connect to the volumes via thei
 }
 ```
 
-In this example, the `photos` volume will be shared and both services can access the files within that volume by the declared paths. We only accept absolute paths and not relative ones. 
+In this example, the `photos` volume will be shared and both services can access the files within that volume by the declared paths. We only accept absolute paths and not relative ones.
 
 **Note:** Once you delete your project, any files in the volumes will also be destroyed.
 
@@ -279,7 +279,7 @@ If you want to know more about custom domains, check our [Custom Domain Document
 
 Health checks are the way we test the status of your service. We also use them know if a new deployment of your service was successful.
 
-The default health check simply looks to see if the service (or more specifically your container) is running, but certain types of services need unique status checks. To do this, you can add a custom health check as a `url` or a `command`. 
+The default health check simply looks to see if the service (or more specifically your container) is running, but certain types of services need unique status checks. To do this, you can add a custom health check as a `url` or a `command`.
 
 If you provide a `url`, we will ping that address until we get a `200` response. For the command, you have more control over what kind of action we take when checking your service health.
 
@@ -387,6 +387,18 @@ Sometimes you may not want your service to be accessible from outside of your pr
   "id": "app",
   "public": false
 }
+```
+
+As previously described, once the `public` field is configured to `false`, the service is only reachable inside the project network. This means that the only way to make requests to a service like this is using it's `id` as its address. For example, you can make a GET for a service by executing the following.
+
+```
+curl -X GET serviceId
+```
+
+The request via API would look like the code bellow.
+
+```javascript
+WeDeploy.url(http://${serviceId}).get()
 ```
 
 </article>
