@@ -34,26 +34,31 @@
   {@param site: ?}
 
   <div class="sidebar-offset">
-    {call TutorialTopbar.render}
-      {param elementClasses: 'topbar-light' /}
-      {param page: $page /}
-      {param logo kind="html"}
-        <div class="topbar-logo">
-          <span class="wedeploy-logo dashboard-logo">
-            <span class="we-circle">
-              <span class="we">We</span>
+    <div class="topbar" style="align-items:center;background:#ffb700;box-sizing:border-box;color:rgba(14,20,26,0.56);display:flex;font-family:'Circular Std';font-size:16px;height:60px;justify-content:center;line-height:24px;padding:0 18px;">
+      <span style="letter-spacing:initial;margin:0;padding:0;text-align:center;">Your WeDeploy account is going away on April 22, 2019.<a href="/blog/discontinuing-wedeploy/" style="color:inherit;border-bottom:solid 1px rgba(14,20,26,0.3);line-height:24px;margin-left:6px;padding-bottom:1px;text-decoration:none;">Learn more</a></span>
+    </div>
+    <div style="position:relative">
+      {call TutorialTopbar.render}
+        {param elementClasses: 'topbar-light' /}
+        {param page: $page /}
+        {param logo kind="html"}
+          <div class="topbar-logo">
+            <span class="wedeploy-logo dashboard-logo">
+              <span class="we-circle">
+                <span class="we">We</span>
+              </span>
             </span>
-          </span>
+          </div>
+        {/param}
+      {/call}
+      <div class="container">
+        <div class="container-blog card">
+          {$content}
+          {call .footerButtons }
+            {param page: $page /}
+            {param site: $site /}
+          {/call}
         </div>
-      {/param}
-    {/call}
-    <div class="container">
-      <div class="container-blog card">
-        {$content}
-        {call .footerButtons }
-          {param page: $page /}
-          {param site: $site /}
-        {/call}
       </div>
     </div>
   </div>
